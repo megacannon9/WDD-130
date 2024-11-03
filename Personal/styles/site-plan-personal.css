@@ -5,10 +5,11 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #9A4C95   ;
+  --secondary-color: #C99CBF ;
+  --accent1-color: #F7EBE8;
+  --accent2-color: #C36076;
+  --accent3-color: #4792BD;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
@@ -82,19 +83,19 @@ p {
 }
 
 .primary {
-  background-color: var(#9A4C95);
+  background-color: var(--primary-color);
 }
 .secondary {
-  background-color: var(#C99CBF);
+  background-color: var(--secondary-color);
 }
 .accent1 {
-  background-color: var(#F7EBE8);
+  background-color: var(--accent1-color);
 }
 .accent2{
-  background-color: var(#C36076);
+  background-color: var(--accent2-color);
 }
 .accent3{
-    background-color: var(#4792BD) ;
+    background-color: var(--accent3-color) ;
 }
 
 p.colored {
