@@ -243,3 +243,36 @@ nav{
         margin-top: 25px;
     }
 }
+
+/* Start Specific Rivers Styles */
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#rivers-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.first-river{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.second-river{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.third-river{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+/* Ens Specific Rivers Styles*/
