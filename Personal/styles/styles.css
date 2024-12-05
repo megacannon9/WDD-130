@@ -24,6 +24,7 @@ header{
     width: 100px;
 }
 
+/*about me page*/
 .home-main{
     display: grid;
     padding: 25px;
@@ -50,6 +51,42 @@ header{
     max-width: 80%;
 }
 
+/*credits page*/
+.credits-main{
+    display: grid;
+    padding: 25px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+    grid-column-start: 2;
+    padding-left: 5px;
+    font-family: "noto sans", sans-serif;
+    font-size: larger;
+}
+
+.lists{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1em auto;
+}
+
+#credits-img{
+    grid-column-start: 2;
+    grid-row: 1/2;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 0;
+}
+
+#credits-img img{
+    max-width: 100%;
+}
+/*FAQ page*/
+
+
+/*footer for all pages*/
 footer{
     background-color: #c99cbf;;
     padding: 25px 50px;
