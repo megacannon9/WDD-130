@@ -20,6 +20,20 @@ header{
     margin-bottom: auto;
 }
 
+.header-links a{
+    color: #f7ebe8;
+    text-decoration: none;
+}
+
+.header-links:hover{
+    font-weight: lighter;
+}
+
+.header-links a:hover{
+    font-weight: bolder;
+}
+
+
 .logo{
     width: 100px;
 }
@@ -27,6 +41,7 @@ header{
 /* Dropdown Button */
 .dropbtn {
     background-color: #9a4c95;
+    color: #f7ebe8;
     font-size: 16px;
     border: none;
     font-family: "Montserrat", serif;
@@ -63,11 +78,18 @@ header{
   .dropdown:hover .dropdown-content {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #9a4c95;}
+  .dropdown:hover .dropbtn {
+    background-color: #9a4c95;
+}
+
+.header-links:hover .dropbtn{
+    font-weight: lighter;
+}
+
 
 /*about me page*/
 .home-main{
-    font-family: noto sans, sans-serif;
+    font-family: "noto sans", sans-serif;
     display: grid;
     padding: 25px;
     grid-template-columns: 1fr 1fr;
@@ -98,6 +120,8 @@ header{
     text-align: left;
     font-size: 30px;
     font-family: "Montserrat";
+    color: #4792bd;
+    font-weight: bold;
 }
 
 .home-text{
@@ -124,6 +148,8 @@ header{
     text-align: center;
     font-size: 30px;
     font-family: "Montserrat";
+    color: #4792bd;
+    font-weight: bold;
 }
 
 .lists{
@@ -161,6 +187,8 @@ header{
     text-align: center;
     font-size: 30px;
     font-family: "Montserrat";
+    color: #4792bd;
+    font-weight: bold;
 }
 
 #faq-img{
@@ -183,6 +211,7 @@ header{
     font-size: 28px;
     font-weight: bold;
     font-family: "Montserrat", serif;
+    color: #c36076;
 }
 
 /*footer for all pages*/
